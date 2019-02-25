@@ -15,7 +15,7 @@ $vetor = array();
 
 //Exercico 2
 	
-	<?php 
+<?php 
 
 $i=0;
 $vetor = array();
