@@ -1,4 +1,5 @@
-//Exercicio 1
+$print "Exercicio 1";
+
 <?php 
 
 $i=0;
@@ -11,9 +12,9 @@ $vetor = array();
     echo "<pre>";
     print_r ($vetor);
     echo "</pre>";
+?>
 
-
-//Exercico 2
+$pritn "Exercico 2";
 	
 <?php 
 
@@ -27,10 +28,11 @@ $vetor = array();
     echo "<pre>";
     print_r ($vetor);
     echo "</pre>";
+?>
 
+$print "Exercicio 3";
 
-//Exercicio 3
-	<?php 
+<?php 
 
 $media=0;
 $soma=0;
@@ -59,9 +61,11 @@ print "<br>"."A soma de todos esse valores é:".$soma."<br>";
 print "A media é de:".$soma/$media;
 
 
+?>
 
-//Exercicio 4
-	<?php 
+$print "Exercicio 4";
+
+<?php
 
 $i=0;
 $vetor = array();
@@ -73,8 +77,9 @@ $vetor = array();
     echo "<pre>";
     print_r ($vetor);
     echo "</pre>";
+?>
 
-//Exercicio 5
+$print "Exercicio 5";
 
 <select>
     <?php
