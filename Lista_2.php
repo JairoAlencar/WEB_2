@@ -1,4 +1,4 @@
-$print "Exercicio 1";
+<?php print "Exercicio 1"; ?>
 
 <?php 
 
@@ -14,7 +14,7 @@ $vetor = array();
     echo "</pre>";
 ?>
 
-$pritn "Exercico 2";
+<?php print "Exercicio 2"; ?>
 	
 <?php 
 
@@ -30,7 +30,7 @@ $vetor = array();
     echo "</pre>";
 ?>
 
-$print "Exercicio 3";
+<?php print "Exercicio 3"; ?>
 
 <?php 
 
@@ -58,14 +58,15 @@ $vetor = array();
 print "Maior valor:".$i."<br>";
 print "Que esta na posição:".$resultado[1];
 print "<br>"."A soma de todos esse valores é:".$soma."<br>";
-print "A media é de:".$soma/$media;
+print "A media é de:".$soma/$media."<br>";
 
 
 ?>
 
-$print "Exercicio 4";
 
+<?php print "<br>"."Exercicio 4"; ?>
 <?php
+
 
 $i=0;
 $vetor = array();
@@ -79,7 +80,7 @@ $vetor = array();
     echo "</pre>";
 ?>
 
-$print "Exercicio 5";
+<?php print "Exercicio 5"; ?>
 
 <select>
     <?php
