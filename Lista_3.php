@@ -18,17 +18,3 @@
 
 
 ?>
-
-<?php print "Exercicio 4"; ?>
-<?php
-
-
-
-?>
-
-<?php print "Exercicio 5"; ?>
-<?php
-
-
-
-?>
