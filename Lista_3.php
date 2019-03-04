@@ -22,13 +22,16 @@
 print "Exercicio 2"."<br>"; ?>
 <?php
 
-$num = range(0,100);
+function primo_rand(){
+    $num = range(0,100);
 
     foreach($num AS $i => $a){
         if($a%2!=0) {
              echo "$a ";
         }	
     }
+}
+primo_rand();
 print"<br>";
 ?> 
 
