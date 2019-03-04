@@ -1,21 +1,30 @@
-<?php print "Exercicio 1"."<br>"; ?>
+<?php print "Exercicio 1<br>"; ?>
 <?php
-    function primo(){
+$num=10;
+    function primo($num){
         $cont=0;
-        $num=1;
-            for($i=0; $i<=$num; $i++){
-                if($num%$i==0){
+        $primo=1;
+            while($primo<=$num){
+                if($num%$primo==0){
                     $cont++;
-                }
-            }
-            if($cont==2){
-                print"Esse numero é primo"."<br>";
-            }else{
-                print"Esse numero não é primo"."<br>";
             }
             
+            $primo++;
+            
+            }
+            if($cont==2){
+                return true;
+            }else{
+                return false;
+            }
     }
-    primo();
+    
+        if(primo($num)){
+            print $num. " Primo<br>";
+        }else{
+            print $num. " Composto<br>";
+        }
+ 
 ?>
 
 <?php print"<br>";
@@ -45,7 +54,7 @@ print "Exercicio 3"."<br>"; ?>
 </head>
 <body>
 	<ul>
-		<?php $cores=array('Branco', 'Rosa', 'Laranja'); ?>
+		<?php $cores=array('Branco', 'Preto', 'Laranja'); ?>
 		 <li><?php print_r($cores[0]) ?></li>
 		 <li><?php print_r($cores[1]) ?></li>
                  <li><?php print_r($cores[2]) ?></li>
