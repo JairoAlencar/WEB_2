@@ -17,7 +17,7 @@
             <br><br>
         <input type="text" placeholder="E-mail ou telefone" name="email">
             <br><br>
-        <input type="pasword" placeholder="Senha" name="senha">
+        <input type="password" placeholder="Senha" name="senha">
     </div>    
         
         <h3>Aniversário</h3>    
