@@ -17,6 +17,8 @@
             <br><br>
         <input type="text" placeholder="E-mail ou telefone" name="email">
             <br><br>
+        <input type="text" placeholder="Insira novamente o E-mail ou telefone" name="email">
+            <br><br>
         <input type="password" placeholder="Senha" name="senha">
     </div>    
         
