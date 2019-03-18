@@ -11,19 +11,20 @@
     <h1>Abra uma conta</h1>
         <h3>É gratutito e sempre sera</h3>
      
-    <div>    
-        <input type="text" placeholder="Nome" name="nome_user">
-        <input type="text" placeholder="Sobrenome" name="sobrenome_user">
-            <br><br>
-        <input type="text" placeholder="E-mail ou telefone" name="email">
-            <br><br>
-        <input type="text" placeholder="Insira novamente o E-mail ou telefone" name="email">
-            <br><br>
-        <input type="password" placeholder="Senha" name="senha">
+    <div>
+        <form action="face.php" method="POST"> 
+            <input type="text" name="nome_user" placeholder="Nome">
+            <input type="text" placeholder="Sobrenome" name="sobrenome_user">
+                <br><br>
+            <input type="text" placeholder="E-mail ou telefone" name="email">
+                <br><br>
+            <input type="text" placeholder="Insira novamente o E-mail ou telefone" name="confemail">
+                <br><br>
+            <input type="password" placeholder="Senha" name="senha">
     </div>    
         
         <h3>Aniversário</h3>    
-        <select name="data">
+        <select name="dia">
             <option>Dia</option>
             <?php
             $soma=0;
@@ -77,7 +78,7 @@
             ?>
         </select> 
         
-        <select>
+        <select name="ano">
             <option>Ano</option>
             <?php
             
