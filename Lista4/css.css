@@ -1,0 +1,14 @@
+#site{
+    margin-left:10px;
+        width:450px;
+}
+
+input {
+    border-radius:20px;
+    height:30px; 
+    width:200px;
+ }
+
+ #conf{
+ 	width:250px;
+ }

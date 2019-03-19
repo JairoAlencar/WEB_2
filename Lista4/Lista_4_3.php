@@ -6,19 +6,21 @@
 <head>
 	<title>FACE</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css.css">
 </head>
 <body>
+<div id="site">    
     <h1>Abra uma conta</h1>
         <h3>É gratutito e sempre sera</h3>
      
-    <div>
+    <div id="form">
         <form action="face.php" method="POST"> 
             <input type="text" name="nome_user" placeholder="Nome">
             <input type="text" placeholder="Sobrenome" name="sobrenome_user">
                 <br><br>
             <input type="text" placeholder="E-mail ou telefone" name="email">
                 <br><br>
-            <input type="text" placeholder="Insira novamente o E-mail ou telefone" name="confemail">
+                <input type="text" placeholder="Insira novamente o E-mail ou telefone" name="confemail" id="conf">
                 <br><br>
             <input type="password" placeholder="Senha" name="senha">
     </div>    
@@ -115,6 +117,7 @@
         <p>Ao clicar em Inscreva-se, você concorda com nossos Termos, Política de Dados e Política de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser</p>
             <br>
             <button type="submit" name="" value="salvar">Abrir minha conta</button>
-    </form>    
+    </form> 
+    </div>        
 </body>
 </html>
