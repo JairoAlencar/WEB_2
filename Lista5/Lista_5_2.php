@@ -16,5 +16,5 @@
     
 
     for($i=0; $i<10; $i++){
-        echo "<li><a href='processa.php?id=$i'> $filmes[$i]</a></li>;
+        echo "<li><a href='processa.php?id=$i'> $filmes[$i]</a></li>";
     }
