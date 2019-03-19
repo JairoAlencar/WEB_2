@@ -10,7 +10,7 @@ $sexo = $_POST["sexo"];
 
 if($email==$confemail){
     print"Seja Bem-Vindo ".$nome." ".$sobre.".<br>";
-    print"Enviaremos uma confirmação do seu cadastro para o email ".$email."<br>";
+    print"Enviaremos uma confirmação do seu cadastro para o email ". $email ."<br>";
 }else{
     print"Os e-mails não batem";
 }
