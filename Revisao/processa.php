@@ -6,4 +6,4 @@ $perc = $_POST["pencentual"];
 
 print "Nome: ".$nome;
 print "Salraio: ".$salario;
-print "Novo salario: "
+print "Novo salario: ";
